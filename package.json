@@ -5,6 +5,10 @@
   "main": "default.js",
   "author": "Ragnar Rebase",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrebase/eslint-config-rrebase.git"
+  },
   "files": [
     "default.js",
     "universe-extended.js"
