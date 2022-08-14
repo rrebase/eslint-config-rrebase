@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rrebase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared ESLint configs by @rrebase",
   "main": "default.js",
   "author": "Ragnar Rebase",
