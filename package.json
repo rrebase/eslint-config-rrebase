@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-rrebase",
+  "version": "1.0.0",
+  "description": "Shared ESLint configs by @rrebase",
+  "main": "default.js",
+  "author": "Ragnar Rebase",
+  "license": "MIT",
+  "files": [
+    "default.js",
+    "universe-extended.js"
+  ],
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "eslint-config-universe": "^11.1.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  }
+}
