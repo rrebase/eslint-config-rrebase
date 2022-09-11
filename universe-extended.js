@@ -2,7 +2,7 @@
 // Based on https://github.com/expo/expo/tree/main/packages/eslint-config-universe
 
 module.exports = {
-  extends: "universe/native",
+  extends: ["universe/native", "plugin:react-hooks/recommended"],
   plugins: ["unused-imports"],
   rules: {
     // Enable the unused import rule that support auto-fix
