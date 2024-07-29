@@ -3,11 +3,11 @@
 
 module.exports = {
   extends: ["universe/native", "plugin:react-hooks/recommended"],
-  plugins: ["unused-imports"],
+  // plugins: ["unused-imports"],
   rules: {
     // Enable the unused import rule that support auto-fix
-    "unused-imports/no-unused-imports-ts": "warn",
-    "unused-imports/no-unused-imports": "off",
+    // "unused-imports/no-unused-imports-ts": "warn",
+    // "unused-imports/no-unused-imports": "off",
     // Disable for now as it duplicated warnings of `no-unused-imports-ts`
     "@typescript-eslint/no-unused-vars": "off",
   },
