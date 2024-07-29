@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rrebase",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Shared ESLint configs by @rrebase",
   "main": "default.js",
   "author": "Ragnar Rebase",
@@ -15,12 +15,17 @@
     "prettier.js"
   ],
   "devDependencies": {
-    "eslint": "^8.22.0"
+    "eslint": "^8.22.0",
+    "eslint-config-universe": "^13.0.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-unused-imports": "^4.0.1",
+    "prettier": "^3.3.3"
   },
-  "dependencies": {
-    "eslint-config-universe": "^11.1.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "^2.8.8"
-  }
+  "peerDependencies": {
+    "eslint-config-universe": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-unused-imports": "*",
+    "prettier": "*"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
